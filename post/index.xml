@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Notepadium</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Notepadium</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©2020 Notepadium.</copyright>
+    <lastBuildDate>Thu, 12 Mar 2020 11:36:03 +0800</lastBuildDate>
+    
+        <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>/post/blog/</link>
+      <pubDate>Thu, 12 Mar 2020 11:36:03 +0800</pubDate>
+      
+      <guid>/post/blog/</guid>
+      <description>hello world </description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>Markdown 入门操作    saf         link
+**a **
+this[^1]
+em
+strong
+delet
+:black_heart:
+H
+==highlight==
+H~2~O</description>
+      
+    </item>
+    
+  </channel>
+</rss>
