@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Beautiful Hugo</title>
+    <title>HugeSun</title>
     <link>https://username.github.io/</link>
-    <description>Recent content on Beautiful Hugo</description>
+    <description>Recent content on HugeSun</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>luoxin1103@126.com (HugeSun)</managingEditor>
+    <webMaster>luoxin1103@126.com (HugeSun)</webMaster>
     <lastBuildDate>Thu, 12 Mar 2020 13:50:44 +0800</lastBuildDate>
     
 	<atom:link href="https://username.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +14,10 @@
     
     <item>
       <title>在Windows上搭建Hugo&#43;GitHub个人Blog</title>
-      <link>https://username.github.io/post/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</link>
+      <link>https://username.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</link>
       <pubDate>Thu, 12 Mar 2020 13:50:44 +0800</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://username.github.io/post/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</guid>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://username.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</guid>
       <description>一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo+GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
  一、准备工具 操作系统：Windows 10 64位
 教程引用：https://moyu.best/2020/01/hugogithubpages/
@@ -38,11 +38,20 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
     
     <item>
       <title>Blog</title>
-      <link>https://username.github.io/post/blog/</link>
+      <link>https://username.github.io/post/code-learning/blog/</link>
       <pubDate>Thu, 12 Mar 2020 11:36:03 +0800</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://username.github.io/post/blog/</guid>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://username.github.io/post/code-learning/blog/</guid>
       <description>hello world！！ test~test</description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://username.github.io/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://username.github.io/pages/about/</guid>
+      <description>Hi friends，I&amp;rsquo;m Xin. TBC……</description>
     </item>
     
   </channel>
