@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>在Windows上搭建Hugo&#43;GitHub静态Blog - HugeSun</title>
+  <meta name="description" content="一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo&#43;GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
+ 一、准备工具 操作系统：Windows 10 64位
+教程引用：https://moyu.best/2020/01/hugogithubpages/
+所需下载/安装软件：
+  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。
+Windows上我用的是Typora , OSX上可以用Mou、MacDown等
+  Git：分布式版本控制软件，值得好好研究
+  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。
+  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。
+   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。
+  打开git bash，查看hugo版本
+$ hugo version   安装成功后，创建网站文件夹
+$ hugo new site C:\Hugo_site   进入新创建的网站文件夹，content\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件
+  git bash 执行以下命令 下载主题
+$ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。
+  本地运行网站确认">
+  <meta name="author" content="HugeSun"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "HugeSun",
+    
+    "url": "https:\/\/hugesun1103.github.io"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/hugesun1103.github.io"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/hugesun1103.github.io",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/hugesun1103.github.io\/post\/codes_learning\/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo\x2bgithub%E9%9D%99%E6%80%81blog\/",
+          "name": "在 windows上搭建 hugo\x2b git hub静态 blog"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "HugeSun"
+  },
+  "headline": "在Windows上搭建Hugo\x2bGitHub静态Blog",
+  "description" : "一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo\x2bGitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。\n 一、准备工具 操作系统：Windows 10 64位\n教程引用：https:\/\/moyu.best\/2020\/01\/hugogithubpages\/\n所需下载\/安装软件：\n  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。\nWindows上我用的是Typora , OSX上可以用Mou、MacDown等\n  Git：分布式版本控制软件，值得好好研究\n  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。\n  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。\n   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo\/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。\n  打开git bash，查看hugo版本\n$ hugo version   安装成功后，创建网站文件夹\n$ hugo new site C:\\Hugo_site   进入新创建的网站文件夹，content\\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件\n  git bash 执行以下命令 下载主题\n$ git clone https:\/\/github.com\/pacollins\/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。\n  本地运行网站确认",
+  "inLanguage" : "en",
+  "wordCount":  185 ,
+  "datePublished" : "2020-03-12T13:50:44",
+  "dateModified" : "2020-03-12T13:50:44",
+  "image" : "https:\/\/hugesun1103.github.io\/img\/red-coral.jpg",
+  "keywords" : [ "Hugo, Github Pages" ],
+  "mainEntityOfPage" : "https:\/\/hugesun1103.github.io\/post\/codes_learning\/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo\x2bgithub%E9%9D%99%E6%80%81blog\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/hugesun1103.github.io",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/hugesun1103.github.io\/img\/red-coral.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="在Windows上搭建Hugo&#43;GitHub静态Blog" />
+<meta property="og:description" content="一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo&#43;GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
+ 一、准备工具 操作系统：Windows 10 64位
+教程引用：https://moyu.best/2020/01/hugogithubpages/
+所需下载/安装软件：
+  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。
+Windows上我用的是Typora , OSX上可以用Mou、MacDown等
+  Git：分布式版本控制软件，值得好好研究
+  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。
+  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。
+   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。
+  打开git bash，查看hugo版本
+$ hugo version   安装成功后，创建网站文件夹
+$ hugo new site C:\Hugo_site   进入新创建的网站文件夹，content\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件
+  git bash 执行以下命令 下载主题
+$ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。
+  本地运行网站确认">
+<meta property="og:image" content="https://hugesun1103.github.io/img/red-coral.jpg" />
+<meta property="og:url" content="https://hugesun1103.github.io/post/codes_learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E9%9D%99%E6%80%81blog/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="HugeSun" />
+
+  <meta name="twitter:title" content="在Windows上搭建Hugo&#43;GitHub静态Blog" />
+  <meta name="twitter:description" content="一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo&#43;GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
+ 一、准备工具 操作系统：Windows 10 64位
+教程引用：https://moyu.best/2020/01/hugogithubpages/
+所需下载/安装软件： …">
+  <meta name="twitter:image" content="https://hugesun1103.github.io/img/red-coral.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <link href='https://hugesun1103.github.io/img/red-coral.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.63.2" />
+  <link rel="alternate" href="https://hugesun1103.github.io/index.xml" type="application/rss+xml" title="HugeSun"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="https://hugesun1103.github.io/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://hugesun1103.github.io/css/highlight.min.css" /><link rel="stylesheet" href="https://hugesun1103.github.io/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://hugesun1103.github.io">HugeSun</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="HOME" href="/">HOME</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent">CATALOGUE</a>
+              <div class="navlinks-children">
+                
+                  <a href="/post/books_reading">BOOKS READING</a>
+                
+                  <a href="/post/codes_learning">CODES LEARNING</a>
+                
+                  <a href="/post/thoughts_mark">THOUGHTS MARK</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="HugeSun" href="https://hugesun1103.github.io">
+            <img class="avatar-img" src="https://hugesun1103.github.io/img/red-coral.jpg" alt="HugeSun" />
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>在Windows上搭建Hugo&#43;GitHub静态Blog</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;HugeSun
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo+GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。</p>
+<hr>
+<h2 id="一准备工具">一、准备工具</h2>
+<p>操作系统：Windows 10 64位</p>
+<p>教程引用：<a href="https://moyu.best/2020/01/hugogithubpages/">https://moyu.best/2020/01/hugogithubpages/</a></p>
+<p>所需下载/安装软件：</p>
+<ul>
+<li>
+<p>Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。</p>
+<p>Windows上我用的是<a href="https://typora.io/">Typora</a>  , OSX上可以用Mou、MacDown等</p>
+</li>
+<li>
+<p><a href="https://git-scm.com/downloads">Git</a>：分布式版本控制软件，值得好好研究</p>
+</li>
+<li>
+<p><a href="https://github.com/gohugoio/hugo/releases">Hugo</a>: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。</p>
+</li>
+<li>
+<p><a href="https://github.com/">GitHub</a>: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载<a href="https://desktop.github.com/">GitHub Desktop</a> 桌面客户端，也可以用git bash直接推动。</p>
+</li>
+</ul>
+<hr>
+<h2 id="二-使用hugo-创建静态网站">二、 使用Hugo 创建静态网站</h2>
+<ol>
+<li>
+<p>下载符合自己laptop版本的Hugo后，新建hugo及hugo/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。</p>
+<p><img src="/github/1.PNG" alt="image"></p>
+<p><img src="/github/5.PNG" alt="image"></p>
+</li>
+<li>
+<p>打开git bash，查看hugo版本</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo version
+</code></pre></div><p><img src="/github/2.PNG" alt="image"></p>
+</li>
+<li>
+<p>安装成功后，创建网站文件夹</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new site C:\Hugo_site
+</code></pre></div><p><img src="/github/3.PNG" alt="image"></p>
+</li>
+<li>
+<p>进入新创建的网站文件夹，content\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件</p>
+<p><img src="/github/4.PNG" alt="image"></p>
+</li>
+<li>
+<p>git bash 执行以下命令 <a href="https://themes.gohugo.io/">下载主题</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git
+</code></pre></div><p><img src="/github/6.PNG" alt="image"></p>
+<p>将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。</p>
+</li>
+<li>
+<p>本地运行网站确认</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo server -D
+</code></pre></div><p><img src="/github/7.PNG" alt="image"></p>
+<p>在浏览器中打开：http://localhost:1313/ 测试页面效果，运行后修改config参数，可实时看到网页变化。直至Ctrl+C终止。</p>
+</li>
+<li>
+<p>新建blog文章，以.md文件保存</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo new post\blog.md
+</code></pre></div><p><img src="/github/8.PNG" alt="image"></p>
+<p>在typora中打开新建文件blog.md，将第三行的draft: true 修改为false。添加内容，保存后，执行6中命令运行，查看效果。至此，本地blog配置完成。</p>
+</li>
+<li>
+<p>如需在md文件中插入图片可保存在Hugo_site\static\目录下，以下格式插入保存。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">![image](/1.PNG) or ![image](/new/1.PNG)
+</code></pre></div></li>
+<li>
+<p>content目录下，默认list 根路径下储存的内容，如content/post，而对于二级路径下的内容无法自动展示，需要在二级路径下手动添加_index.md文件，提示作为list page。</p>
+<p><img src="/github/16.png" alt="image"></p>
+<p>参考Youtube学习视频<a href="https://www.youtube.com/watch?v=0GZxidrlaRM&amp;list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3&amp;index=6">Hugo-Tutorial</a> .404的翻个墙吧~~~😏</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/0GZxidrlaRM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+</li>
+<li>
+<p>利用<strong>shortcodes</strong> 添加音乐。在./layouts/shortcodes/music.html路径下添加<a href="https://github.com/MatNoble/hugo-shortcodes-sets/blob/master/layouts/shortcodes/music.html">html文件</a>.</p>
+</li>
+</ol>
+<p><img src="/github/17.png" alt="image"></p>
+<h2 id="三配置hugo作为一个github-pages">三、配置Hugo作为一个GitHub Pages</h2>
+<ol>
+<li>
+<p>首先，需要注册一个GitHub账号，可用于免费储存静态html，js，css，这里用于搭建个人blog。登录后注册新的仓库，命名格式 username.github.io，后面会作为网页域名。</p>
+<p><img src="/github/9.PNG" alt="image"></p>
+</li>
+<li>
+<p>创建完后，回到Hugo_site目录下，执行以下命令生成public目录，即GitHub仓库所需的静态blog文件</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo --theme=hugo-notepadium --baseUrl=&#34;https://hugesun1103.github.io/&#34; --buildDrafts
+</code></pre></div><p><img src="/github/10.PNG" alt="image"></p>
+<p><img src="/github/11.PNG" alt="image"></p>
+</li>
+<li>
+<p>进入public文件夹，将本地所有文件添加，提交到本地</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git init
+$ git add .
+$ git commit -m &#34;First submit of my hugo blog&#34;
+</code></pre></div><p><img src="/github/12.PNG" alt="image"></p>
+</li>
+<li>
+<p>将本地public推送至GitHub服务器，第一次推动需要输入GitHub账号密码</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git remote add origin https://github.com/hugesun1103/hugesun1103.github.io.git
+$ git push -u origin master
+</code></pre></div><p><img src="/github/13.PNG" alt="image"></p>
+<p>注意push时出现报错，修改命令后推送成功。刷新GitHub页面，public文件上传，在浏览器中输入 <a href="https://hugesun1103.github.io/">https://hugesun1103.github.io/</a> 即可访问。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git push -f origin master
+</code></pre></div><p><img src="/github/14.PNG" alt="image"></p>
+</li>
+<li>
+<p>日常更新，在修改好md文件后，需要执行下述命令编译后查看效果。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo
+$ hugo server -D
+</code></pre></div></li>
+</ol>
+<p><img src="/github/15.PNG" alt="image"></p>
+<p>测试效果没问题后，运行下述sh deploy.sh脚本，自动部署。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">#/bin/bash
+echo -e &#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;
+
+msg=&#34;rebuilding site `date`&#34;
+if [ $# -eq 1  ]
+    then msg=&#34;$1&#34;
+fi
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+
+git commit -m &#34;$msg&#34;
+
+# Push source and build repos.
+git push origin master
+
+cd ../
+</code></pre></div>
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://hugesun1103.github.io/tags/hugo/">Hugo</a>&nbsp;
+            
+              <a href="https://hugesun1103.github.io/tags/github-pages/">Github Pages</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhugesun1103.github.io%2fpost%2fcodes_learning%2f%25E5%259C%25A8windows%25E4%25B8%258B%25E6%2590%25AD%25E5%25BB%25BAhugo%2bgithub%25E9%259D%2599%25E6%2580%2581blog%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fhugesun1103.github.io%2fpost%2fcodes_learning%2f%25E5%259C%25A8windows%25E4%25B8%258B%25E6%2590%25AD%25E5%25BB%25BAhugo%2bgithub%25E9%259D%2599%25E6%2580%2581blog%2f&amp;title=%e5%9c%a8Windows%e4%b8%8a%e6%90%ad%e5%bb%baHugo%2bGitHub%e9%9d%99%e6%80%81Blog" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fhugesun1103.github.io%2fpost%2fcodes_learning%2f%25E5%259C%25A8windows%25E4%25B8%258B%25E6%2590%25AD%25E5%25BB%25BAhugo%2bgithub%25E9%259D%2599%25E6%2580%2581blog%2f&amp;description=%e5%9c%a8Windows%e4%b8%8a%e6%90%ad%e5%bb%baHugo%2bGitHub%e9%9d%99%e6%80%81Blog" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/thoughts_mark/blog/">Blog</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+        </ul>
+      
+
+
+      
+        
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:luoxin1103@126.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/hugesun1103" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://weibo.com/username" title="Weibo">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-weibo fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://hugesun1103.github.io/">HugeSun</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2020
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://hugesun1103.github.io">HugeSun</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.63.2</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="https://hugesun1103.github.io/js/main.js"></script>
+<script src="https://hugesun1103.github.io/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="https://hugesun1103.github.io/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

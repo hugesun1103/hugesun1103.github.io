@@ -3,27 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://hugesun1103.github.io/post/thoughts_mark/</loc>
+    <lastmod>2020-03-21T20:28:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/post/thoughts_mark/2020-%E4%BB%8E%E5%BF%83%E5%BC%80%E5%A7%8B/</loc>
+    <lastmod>2020-03-21T20:28:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/tags/covid-19/</loc>
+    <lastmod>2020-03-21T20:28:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/tags/</loc>
+    <lastmod>2020-03-21T20:28:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/tags/%E5%BF%85%E7%84%B6/</loc>
+    <lastmod>2020-03-21T20:28:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hugesun1103.github.io/</loc>
+    <lastmod>2020-03-20T11:42:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/post/codes_learning/</loc>
     <lastmod>2020-03-12T13:50:44+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/post/</loc>
+    <loc>https://hugesun1103.github.io/tags/github-pages/</loc>
     <lastmod>2020-03-12T13:50:44+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</loc>
+    <loc>https://hugesun1103.github.io/tags/hugo/</loc>
     <lastmod>2020-03-12T13:50:44+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/post/thougt-mark/blog/</loc>
+    <loc>https://hugesun1103.github.io/post/codes_learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E9%9D%99%E6%80%81blog/</loc>
+    <lastmod>2020-03-12T13:50:44+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/post/thoughts_mark/blog/</loc>
     <lastmod>2020-03-12T11:36:03+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/pages/about/</loc>
+    <loc>https://hugesun1103.github.io/tags/test/</loc>
+    <lastmod>2020-03-12T11:36:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/post/books_reading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://hugesun1103.github.io/page/about/</loc>
   </url>
   
   <url>
@@ -31,11 +75,11 @@
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/pages/</loc>
+    <loc>https://hugesun1103.github.io/page/</loc>
   </url>
   
   <url>
-    <loc>https://hugesun1103.github.io/tags/</loc>
+    <loc>https://hugesun1103.github.io/post/</loc>
   </url>
   
 </urlset>

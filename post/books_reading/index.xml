@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HugeSun</title>
+    <link>https://hugesun1103.github.io/post/books_reading/</link>
+    <description>Recent content on HugeSun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>luoxin1103@126.com (HugeSun)</managingEditor>
+    <webMaster>luoxin1103@126.com (HugeSun)</webMaster>
+    
+	<atom:link href="https://hugesun1103.github.io/post/books_reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

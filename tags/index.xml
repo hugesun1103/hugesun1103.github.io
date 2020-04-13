@@ -7,9 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>luoxin1103@126.com (HugeSun)</managingEditor>
     <webMaster>luoxin1103@126.com (HugeSun)</webMaster>
+    <lastBuildDate>Sat, 21 Mar 2020 20:28:11 +0800</lastBuildDate>
     
 	<atom:link href="https://hugesun1103.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>COVID-19</title>
+      <link>https://hugesun1103.github.io/tags/covid-19/</link>
+      <pubDate>Sat, 21 Mar 2020 20:28:11 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>《必然》</title>
+      <link>https://hugesun1103.github.io/tags/%E5%BF%85%E7%84%B6/</link>
+      <pubDate>Sat, 21 Mar 2020 20:28:11 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/tags/%E5%BF%85%E7%84%B6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Github Pages</title>
+      <link>https://hugesun1103.github.io/tags/github-pages/</link>
+      <pubDate>Thu, 12 Mar 2020 13:50:44 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://hugesun1103.github.io/tags/hugo/</link>
+      <pubDate>Thu, 12 Mar 2020 13:50:44 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://hugesun1103.github.io/tags/test/</link>
+      <pubDate>Thu, 12 Mar 2020 11:36:03 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/tags/test/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

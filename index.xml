@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HugeSun</title>
+    <title>Content on HugeSun</title>
     <link>https://hugesun1103.github.io/</link>
-    <description>Recent content on HugeSun</description>
+    <description>Recent content in Content on HugeSun</description>
     <generator>Hugo -- gohugo.io</generator>
     <managingEditor>luoxin1103@126.com (HugeSun)</managingEditor>
     <webMaster>luoxin1103@126.com (HugeSun)</webMaster>
-    <lastBuildDate>Thu, 12 Mar 2020 13:50:44 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 11:42:20 +0800</lastBuildDate>
     
 	<atom:link href="https://hugesun1103.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>在Windows上搭建Hugo&#43;GitHub个人Blog</title>
-      <link>https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</link>
+      <title>2020,从Xin开始</title>
+      <link>https://hugesun1103.github.io/post/thoughts_mark/2020-%E4%BB%8E%E5%BF%83%E5%BC%80%E5%A7%8B/</link>
+      <pubDate>Sat, 21 Mar 2020 20:28:11 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/post/thoughts_mark/2020-%E4%BB%8E%E5%BF%83%E5%BC%80%E5%A7%8B/</guid>
+      <description>2020，怎么说呢。她到来的方式非常特殊，从各个方面让所有人记住了她。顽固的中老年人被迫戴上了难受的口罩，不知所谓的小朋友放了足够长的寒假，支撑着每个家的年轻人们不得已暂停下急匆匆的脚步，开始关注生活的烟火气。
+98年洪水/03年非典，我是被包围的温室花朵；08年地震，我在一沓沓的课本考卷中被摇醒；13年H7N9，我在象牙塔里享受着短暂美好的时光。与所有这些历史性往日不同的是，2020发生COVID-19时，我成长为初谙世事/独立思考的成年人。
+ 《必然》说：
+世间万物都需要额外的能量和秩序来维持自身，无一例外。这就是著名的热力学第二定律，即所有事物在缓慢的分崩离析。
+ 而最近几年中，发生在身边或者大环境中的分崩离析的速度是我从未体验过的。一边摧毁一边建立，似乎成了常态。
+在过去的近三年半的时间里，海绵一般地向周围猛烈地吸收了巨大的能量。用自己带有余温的技术和精力去深度挖掘去自我定位，同时，一点点的试错/摸索，去洞悉一团和气的表面之下真正的内涵。
+然而，太过快速的成长同样也会掩盖不少的问题，不少未经考验的问题。 19年中 发生的总总揭开了不一样的罩纱。同车小伙伴在“毫无征兆”之下提前下车。或许这种毫无征兆只是于我这个跟他们所处不同阶段的小朋友而言，于他们每个人自己都是从没有停止过寻找的方向。
+虽然在内心早就明了这一切本该有的剧情发展，但让一个在稳态里成长的人拥抱突然的变化，总会在各个节点碰撞出不一样的挣扎/焦躁/反抗，然后，他就学会了换位/理解/接纳。😝
+2020，给武汉，给中国，给全球按下了暂停键。同时，也为处于转型的我提供了一个安全的恢复期。认真思考，什么才是我真正想要的。或许这本就是个伪命题，不管选择什么，也会把未选择作为遗憾。完美其实是个无限临界的概念，能做的就是满足当下。
+借着这一段整片的时间，搭建这个站点，作为平时工作学习的笔记，同时，将点滴生活中的灵光一现，以逻辑清晰的文字内容记录下来。希望多年以后的自己看到这些素材还能回想起当下记录时的心境。那么，2020，就从Xin开始吧。❤
+</description>
+    </item>
+    
+    <item>
+      <title>在Windows上搭建Hugo&#43;GitHub静态Blog</title>
+      <link>https://hugesun1103.github.io/post/codes_learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E9%9D%99%E6%80%81blog/</link>
       <pubDate>Thu, 12 Mar 2020 13:50:44 +0800</pubDate>
       <author>luoxin1103@126.com (HugeSun)</author>
-      <guid>https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/</guid>
+      <guid>https://hugesun1103.github.io/post/codes_learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E9%9D%99%E6%80%81blog/</guid>
       <description>一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo+GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
  一、准备工具 操作系统：Windows 10 64位
 教程引用：https://moyu.best/2020/01/hugogithubpages/
@@ -38,19 +57,29 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
     
     <item>
       <title>Blog</title>
-      <link>https://hugesun1103.github.io/post/thougt-mark/blog/</link>
+      <link>https://hugesun1103.github.io/post/thoughts_mark/blog/</link>
       <pubDate>Thu, 12 Mar 2020 11:36:03 +0800</pubDate>
       <author>luoxin1103@126.com (HugeSun)</author>
-      <guid>https://hugesun1103.github.io/post/thougt-mark/blog/</guid>
-      <description>hello world！！ test~test</description>
+      <guid>https://hugesun1103.github.io/post/thoughts_mark/blog/</guid>
+      <description>hello world！！ test~test
+♏
+ .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice-title:before{margin-right:8px;font-family:&#34;Font Awesome 5 Free&#34;,FontAwesome;font-weight:400}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning .notice-title:before{content:&#39;\f071&#39;}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info .notice-title:before{content:&#39;\f05a&#39;}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note .notice-title:before{content:&#39;\f06a&#39;}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip .notice-title:before{content:&#39;\f058&#39;}.notice.tip{background:#e6f9e6}Warning
+This is a warning notice. Be warned!
+ Tip
+This is a very good tip.
+ Info
+这是引言
+ Note
+这是注释
+ </description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://hugesun1103.github.io/pages/about/</link>
+      <link>https://hugesun1103.github.io/page/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>luoxin1103@126.com (HugeSun)</author>
-      <guid>https://hugesun1103.github.io/pages/about/</guid>
+      <guid>https://hugesun1103.github.io/page/about/</guid>
       <description>Hi friends，I&amp;rsquo;m Xin. TBC……</description>
     </item>
     

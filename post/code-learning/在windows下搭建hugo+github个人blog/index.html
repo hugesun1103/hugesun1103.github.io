@@ -74,7 +74,7 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
   "headline": "在Windows上搭建Hugo\x2bGitHub个人Blog",
   "description" : "一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo\x2bGitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。\n 一、准备工具 操作系统：Windows 10 64位\n教程引用：https:\/\/moyu.best\/2020\/01\/hugogithubpages\/\n所需下载\/安装软件：\n  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。\nWindows上我用的是Typora , OSX上可以用Mou、MacDown等\n  Git：分布式版本控制软件，值得好好研究\n  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。\n  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。\n   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo\/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。\n  打开git bash，查看hugo版本\n$ hugo version   安装成功后，创建网站文件夹\n$ hugo new site C:\\Hugo_site   进入新创建的网站文件夹，content\\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件\n  git bash 执行以下命令 下载主题\n$ git clone https:\/\/github.com\/pacollins\/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。\n  本地运行网站确认",
   "inLanguage" : "en",
-  "wordCount":  132 ,
+  "wordCount":  178 ,
   "datePublished" : "2020-03-12T13:50:44",
   "dateModified" : "2020-03-12T13:50:44",
   "image" : "https:\/\/hugesun1103.github.io\/img\/red-coral.jpg",
@@ -281,7 +281,7 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;132&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;178&nbsp;words
   
   
     
@@ -401,13 +401,36 @@ $ git push -u origin master
 </code></pre></div><p><img src="/github/14.PNG" alt="image"></p>
 </li>
 <li>
-<p>日常更新</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ git add .
-$ git commit -m &#34;update&#34;
-$ git push -u origin master
+<p>日常更新，在修改好md文件后，需要执行下述命令编译后查看效果。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">$ hugo
+$ hugo server -D
 </code></pre></div></li>
 </ol>
+<p><img src="/github/15.PNG" alt="image"></p>
+<p>测试效果没问题后，运行下述sh deploy.sh脚本，自动部署。</p>
+<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">#/bin/bash
+echo -e &#34;\033[0;32mDeploying updates to GitHub...\033[0m&#34;
 
+msg=&#34;rebuilding site `date`&#34;
+if [ $# -eq 1  ]
+    then msg=&#34;$1&#34;
+fi
+
+# Go To Public folder
+cd public
+
+# Add changes to git.
+git add -A
+
+# Commit changes.
+
+git commit -m &#34;$msg&#34;
+
+# Push source and build repos.
+git push origin master
+
+cd ../
+</code></pre></div>
 
         
 
@@ -482,6 +505,10 @@ $ git push -u origin master
               <a href="https://hugesun1103.github.io/post/thougt-mark/blog/" data-toggle="tooltip" data-placement="top" title="Blog">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="https://hugesun1103.github.io/post/thougt-mark/2020%E4%BB%8E%E5%BF%83%E5%BC%80%E5%A7%8B/" data-toggle="tooltip" data-placement="top" title="2020，从心开始">Next Post &rarr;</a>
+            </li>
           
         </ul>
       

@@ -68,7 +68,7 @@
         
           
             <li>
-              <a title="Blog" href="/post">Blog</a>
+              <a title="HOME" href="/">HOME</a>
             </li>
           
         
@@ -77,11 +77,11 @@
               <a class="navlinks-parent">CATALOGUE</a>
               <div class="navlinks-children">
                 
-                  <a href="/post/readind-note">BOOKS READING</a>
+                  <a href="/post/books_reading">BOOKS READING</a>
                 
-                  <a href="/post/code-learning/">CODES LEARNING</a>
+                  <a href="/post/codes_learning">CODES LEARNING</a>
                 
-                  <a href="/post/readind-note">THOUGHTS MARK</a>
+                  <a href="/post/thoughts_mark">THOUGHTS MARK</a>
                 
               </div>
             </li>
@@ -89,7 +89,13 @@
         
           
             <li>
-              <a title="About" href="/pages/about/">About</a>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
             </li>
           
         
@@ -191,13 +197,11 @@
                 <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 1, 0001
   
   
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;0&nbsp;minutes
   
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;0&nbsp;words
   
   
     
@@ -223,104 +227,6 @@
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         
         <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/">
-        <h2 class="post-title">在Windows上搭建Hugo&#43;GitHub个人Blog</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;132&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;HugeSun
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo+GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
- 一、准备工具 操作系统：Windows 10 64位
-教程引用：https://moyu.best/2020/01/hugogithubpages/
-所需下载/安装软件：
-  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。
-Windows上我用的是Typora , OSX上可以用Mou、MacDown等
-  Git：分布式版本控制软件，值得好好研究
-  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。
-  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。
-   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。
-  打开git bash，查看hugo版本
-$ hugo version   安装成功后，创建网站文件夹
-$ hugo new site C:\Hugo_site   进入新创建的网站文件夹，content\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件
-  git bash 执行以下命令 下载主题
-$ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。
-  本地运行网站确认
-        <a href="https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-
-</article>
-          
-            <article class="post-preview">
-    <a href="https://hugesun1103.github.io/post/thougt-mark/blog/">
-        <h2 class="post-title">Blog</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;3&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;HugeSun
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <h1 id="hello-world">hello world！！</h1>
-<p>test~test</p>
-
-        
-    </div>
-
-    
-
-</article>
           
         </div>
         

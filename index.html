@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-  <title>HugeSun - HugeSun</title>
+  <title>Content - HugeSun</title>
   <meta name="author" content="HugeSun"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -29,13 +29,13 @@
 }
 </script>
 
-<meta property="og:title" content="HugeSun" />
+<meta property="og:title" content="Content" />
 <meta property="og:image" content="https://hugesun1103.github.io/img/red-coral.jpg" />
 <meta property="og:url" content="https://hugesun1103.github.io/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="HugeSun" />
 
-  <meta name="twitter:title" content="HugeSun" />
+  <meta name="twitter:title" content="Content" />
   <meta name="twitter:image" content="https://hugesun1103.github.io/img/red-coral.jpg" />
   <meta name="twitter:card" content="summary" />
   <link href='https://hugesun1103.github.io/img/red-coral.ico' rel='icon' type='image/x-icon'/>
@@ -68,7 +68,7 @@
         
           
             <li>
-              <a title="Blog" href="/post">Blog</a>
+              <a title="HOME" href="/">HOME</a>
             </li>
           
         
@@ -77,11 +77,11 @@
               <a class="navlinks-parent">CATALOGUE</a>
               <div class="navlinks-children">
                 
-                  <a href="/post/readind-note">BOOKS READING</a>
+                  <a href="/post/books_reading">BOOKS READING</a>
                 
-                  <a href="/post/code-learning/">CODES LEARNING</a>
+                  <a href="/post/codes_learning">CODES LEARNING</a>
                 
-                  <a href="/post/readind-note">THOUGHTS MARK</a>
+                  <a href="/post/thoughts_mark">THOUGHTS MARK</a>
                 
               </div>
             </li>
@@ -89,7 +89,13 @@
         
           
             <li>
-              <a title="About" href="/pages/about/">About</a>
+              <a title="About" href="/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
             </li>
           
         
@@ -205,7 +211,7 @@
                   
                     
                       <hr class="small">
-                      <span class="page-subheading">喜欢研究点技术和胡思乱想的小蝎蝎</span>
+                      <span class="page-subheading">You will see it when you see it !</span>
                     
                   
                   
@@ -229,7 +235,7 @@
               
               
                 
-                  <span class="page-subheading">喜欢研究点技术和胡思乱想的小蝎蝎</span>
+                  <span class="page-subheading">You will see it when you see it !</span>
                 
               
               
@@ -251,8 +257,8 @@
           
           
             <article class="post-preview">
-    <a href="https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/">
-        <h2 class="post-title">在Windows上搭建Hugo&#43;GitHub个人Blog</h2>
+    <a href="https://hugesun1103.github.io/post/thoughts_mark/2020-%E4%BB%8E%E5%BF%83%E5%BC%80%E5%A7%8B/">
+        <h2 class="post-title">2020,从Xin开始</h2>
         
         
         
@@ -262,13 +268,11 @@
         <span class="post-meta">
   
   
-  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
+  <i class="fas fa-calendar"></i>&nbsp;Posted on March 21, 2020
   
   
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;132&nbsp;words
   
   
     
@@ -280,35 +284,23 @@
 
 
     </p>
-    <div class="post-entry">
+    
+
+    
+    <div class="blog-tags">
         
-        一直觉得有必要把平时做的工作和胡思乱想的内容做成系统性的笔记，同时注重内容本质的可视化。折腾两天看了许多教程，决定选用Hugo+GitHub Page来搭建这个静态blog。那整个搭建的过程就作为第一篇笔记吧。
- 一、准备工具 操作系统：Windows 10 64位
-教程引用：https://moyu.best/2020/01/hugogithubpages/
-所需下载/安装软件：
-  Markdown编辑器： markdown本质是排版文本，更注重内容的结构和逻辑，包含基础的语法，易于上手。
-Windows上我用的是Typora , OSX上可以用Mou、MacDown等
-  Git：分布式版本控制软件，值得好好研究
-  Hugo: 一种静态网站生成器。适用于搭建个人博客、小型主页等网站。GitHub上有其他软件推荐，选择Hugo在于快速，有Windows版本，配置相对简单，支持markdown文件。
-  GitHub: 用于托管Hugo内容的远程服务器，需要注册账号，建立仓库。有需要的话可以下载GitHub Desktop 桌面客户端，也可以用git bash直接推动。
-   二、 使用Hugo 创建静态网站   下载符合自己laptop版本的Hugo后，新建hugo及hugo/bin文件夹，将下载的.exe解压在bin文件夹下，添加环境变量。
-  打开git bash，查看hugo版本
-$ hugo version   安装成功后，创建网站文件夹
-$ hugo new site C:\Hugo_site   进入新创建的网站文件夹，content\post用于存放.md文件，themes用于保存下载主题，config.toml修改配置文件
-  git bash 执行以下命令 下载主题
-$ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下载的theme内example文件下的config.toml 拷贝于Hugo_site目录下，可根据config配置文件修改模板参数。
-  本地运行网站确认
-        <a href="https://hugesun1103.github.io/post/code-learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E4%B8%AA%E4%BA%BAblog/" class="post-read-more">[Read More]</a>
+        <a href="https://hugesun1103.github.io/tags/%E5%BF%85%E7%84%B6/">《必然》</a>&nbsp;
+        
+        <a href="https://hugesun1103.github.io/tags/covid-19/">COVID-19</a>&nbsp;
         
     </div>
-
     
 
 </article>
           
             <article class="post-preview">
-    <a href="https://hugesun1103.github.io/post/thougt-mark/blog/">
-        <h2 class="post-title">Blog</h2>
+    <a href="https://hugesun1103.github.io/post/codes_learning/%E5%9C%A8windows%E4%B8%8B%E6%90%AD%E5%BB%BAhugo&#43;github%E9%9D%99%E6%80%81blog/">
+        <h2 class="post-title">在Windows上搭建Hugo&#43;GitHub静态Blog</h2>
         
         
         
@@ -324,7 +316,51 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;3&nbsp;words
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;HugeSun
+    
+  
+  
+</span>
+
+
+    </p>
+    
+
+    
+    <div class="blog-tags">
+        
+        <a href="https://hugesun1103.github.io/tags/hugo/">Hugo</a>&nbsp;
+        
+        <a href="https://hugesun1103.github.io/tags/github-pages/">Github Pages</a>&nbsp;
+        
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="https://hugesun1103.github.io/post/thoughts_mark/blog/">
+        <h2 class="post-title">Blog</h2>
+        
+        <h3 class="post-subtitle">
+            test
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on March 12, 2020
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
   
   
     
@@ -336,14 +372,16 @@ $ git clone https://github.com/pacollins/hugo-future-imperfect-slim.git 将下�
 
 
     </p>
-    <div class="post-entry">
-        
-        <h1 id="hello-world">hello world！！</h1>
-<p>test~test</p>
+    
 
+    
+    <div class="blog-tags">
+        
+        <a href="https://hugesun1103.github.io/tags/test/">test</a>&nbsp;
+        
+        <a href="https://hugesun1103.github.io/tags/hugo/">Hugo</a>&nbsp;
         
     </div>
-
     
 
 </article>

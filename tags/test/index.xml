@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>test on HugeSun</title>
+    <link>https://hugesun1103.github.io/tags/test/</link>
+    <description>Recent content in test on HugeSun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>luoxin1103@126.com (HugeSun)</managingEditor>
+    <webMaster>luoxin1103@126.com (HugeSun)</webMaster>
+    <lastBuildDate>Thu, 12 Mar 2020 11:36:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://hugesun1103.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://hugesun1103.github.io/post/thoughts_mark/blog/</link>
+      <pubDate>Thu, 12 Mar 2020 11:36:03 +0800</pubDate>
+      <author>luoxin1103@126.com (HugeSun)</author>
+      <guid>https://hugesun1103.github.io/post/thoughts_mark/blog/</guid>
+      <description>hello world！！ test~test
+♏
+ .notice{padding:18px;line-height:24px;margin-bottom:24px;border-radius:4px;color:#444;background:#e7f2fa}.notice p:last-child{margin-bottom:0}.notice-title{margin:-18px -18px 12px;padding:4px 18px;border-radius:4px 4px 0 0;font-weight:700;color:#fff;background:#6ab0de}.notice-title:before{margin-right:8px;font-family:&#34;Font Awesome 5 Free&#34;,FontAwesome;font-weight:400}.notice.warning .notice-title{background:rgba(217,83,79,.9)}.notice.warning .notice-title:before{content:&#39;\f071&#39;}.notice.warning{background:#fae2e2}.notice.info .notice-title{background:#f0b37e}.notice.info .notice-title:before{content:&#39;\f05a&#39;}.notice.info{background:#fff2db}.notice.note .notice-title{background:#6ab0de}.notice.note .notice-title:before{content:&#39;\f06a&#39;}.notice.note{background:#e7f2fA}.notice.tip .notice-title{background:rgba(92,184,92,.8)}.notice.tip .notice-title:before{content:&#39;\f058&#39;}.notice.tip{background:#e6f9e6}Warning
+This is a warning notice. Be warned!
+ Tip
+This is a very good tip.
+ Info
+这是引言
+ Note
+这是注释
+ </description>
+    </item>
+    
+  </channel>
+</rss>
